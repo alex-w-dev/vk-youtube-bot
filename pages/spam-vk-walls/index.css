@@ -1,0 +1,12 @@
+#video-list {
+  display: flex;
+  overflow: auto;
+}
+#spam-video-text {
+  width: 90vw;
+  height: 40vh;
+}
+#spam-video-groups {
+  width: 90vw;
+  height: 10vh;
+}
