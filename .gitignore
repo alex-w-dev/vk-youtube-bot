@@ -1,3 +1,4 @@
 vendor/
 local-db/
 .idea/
+/adminer-4.7.4-en.php
