@@ -2,6 +2,8 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
+
+
 $vk_sasha_access_token = file_get_contents($_SERVER['DOCUMENT_ROOT'].'/local-db/vk-sasha-access-token.txt');
 $vk_babushka_access_token = file_get_contents($_SERVER['DOCUMENT_ROOT'].'/local-db/vk-babushka-access-token.txt');
 $vk_sveta_access_token = file_get_contents($_SERVER['DOCUMENT_ROOT'].'/local-db/vk-sveta-access-token.txt');
