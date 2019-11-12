@@ -6,7 +6,7 @@ $vk_sasha_access_token = file_get_contents($_SERVER['DOCUMENT_ROOT'].'/local-db/
 $vk_babushka_access_token = file_get_contents($_SERVER['DOCUMENT_ROOT'].'/local-db/vk-babushka-access-token.txt');
 $vk_sveta_access_token = file_get_contents($_SERVER['DOCUMENT_ROOT'].'/local-db/vk-sveta-access-token.txt');
 
-$vk_main_poster_access_token = $vk_sveta_access_token;
+$vk_main_poster_access_token = $vk_sasha_access_token;
 
 $vk_likers = [
   $vk_sasha_access_token,
